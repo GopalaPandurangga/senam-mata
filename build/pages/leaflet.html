@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet</title>
+    <link rel="stylesheet" href="/build/css/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="absolute bg-transparent  w-full flex items-center    ">
+        <div class="container py-4  ">
+            <div class="flex items-center justify-between relative">
+                <div class="mt-2">
+
+                    <div class="flex flex-shrink-0 items-center mx-16 lg:mx-32">
+                        <a href="#home"><img class="hidden font-bold  w-auto lg:block">Leaflet</a>
+
+                    </div>
+                </div>
+                <div class="flex items-center sm:px-10 lg:px-2">
+                    <div id="hamburger" name="hamburger" type="button" class="block lg:hidden absolute right-10">
+                        <span class=" hamburger-line transition duration-300
+                        ease-in-out origin-top-left "></span>
+                        <span class="hamburger-line transition duration-300
+                        ease-in-out"></span>
+                        <span class="hamburger-line  origin-bottom-left transition duration-300
+                        ease-in-out"></span>
+                    </div>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5  bg-white
+                    shadow-lg rounded-lg lg:shadow-none lg:rounded-none max-w-[250px] lg:w-full right-4 top-full lg:block lg:static lg:bg-transparent dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent  lg:max-w-full z-10">
+                        <ul class="block lg:flex ">
+
+                            <li class="group">
+                                <a href="#home "
+                                    class="text-black dark:text-white text-sm  transition duration-300 py-2 mx-4 flex">CVS
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#faktorcvs "
+                                    class="text-black dark:text-white text-sm  transition duration-300 py-2 mx-4 flex">Faktor
+                                    CVS</a>
+                            </li>
+                            <li class="group">
+                                <a href="#pencegahan"
+                                    class="text-black dark:text-white text-sm transition duration-300 py-2 mx-4 flex ">Pencegahan
+                                    CVS</a>
+                            </li>
+                            <li class="group">
+                                <a href="#definisi"
+                                    class="text-black dark:text-white text-sm transition duration-300 py-2 mx-4 flex ">Definisi</a>
+                            </li>
+                            <li class="group">
+                                <a href="#manfaat"
+                                    class="text-black dark:text-white text-sm transition duration-300 py-2 mx-4 flex ">Manfaat</a>
+                            </li>
+                            <li class="group">
+                                <a href="#panduan"
+                                    class="text-black dark:text-white text-sm transition duration-300 py-2 mx-4 flex ">Panduan</a>
+                            </li>
+                            <li class="group">
+                                <a href="#jadwal"
+                                    class="text-black dark:text-white text-sm transition duration-300 py-2 mx-4 flex ">Jadwal</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </header>
+    <!-- header -->
+
+    <!-- Home -->
+    <section id="home" class="bg-primary-color">
+        <div
+            class="lg:px-32 pt-32 pb-16 flex flex-col-reverse lg:flex-row h-full items-center text-center lg:items-start lg:text-start">
+            <div class="w-full self-center md:flex-1 md:mr-10 pb-12  lg:w-1/2 pt-4">
+                <h1 class="font-bold text-2xl lg:text-5xl mb-4 lg:mb-4 text-white " data-aos="zoom-in">Computer Vision Syndrome<br>
+                   </h1>
+                <div class="h-full text-ellipsis">
+                    <p class="font-sans text-sm md:text-md lg:text-xl px-12 md:px-12 lg:px-0 text-gray-300" data-aos="zoom-in">
+                        Computer Vision Syndrome (CVS) merupakan sekumpulan gejala yang terjadi pada mata dan leher
+                        akibat penggunaan media digital yang berlebihan
+                        Occupational Health and Safety Administration (OHSA) mendefinisikan Computer Vision Syndrome
+                        (CVS) sebagai keluhan mata dan penglihatan kompleks
+                        yang dialami seseorang ketika menggunakan computer atau media digital lain seperti handphone
+                    </p>
+                </div>
+                <!-- <a class="mt-8inline-block px-8 text-black rounded-full py-2 text-sm bg-white font-sans font-bold"
+                href="/public/login.html">Pelajari Lebih Lanjut
+                </a> -->
+            </div>
+            <div class="w-96 lg:self-end lg:px-20  lg:w-1/2 " data-aos="zoom-in">
+                <div class="relative sm:mx-12 mx-12 lg:mx-0 lg:left-20 bg-cover">
+                    <img src="/build/images/6.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Home end -->
+
+    <!-- Faktor Mata -->
+    <section id="faktorcvs" class="bg-white">
+        <div
+            class="lg:px-32 py-16 flex flex-col lg:flex-row h-full items-center text-center lg:items-start lg:text-start">
+            <div class="w-full lg:w-1/2 " data-aos="zoom-in-down">
+                <div class="relative sm:mx-12 mx-12 bg-cover">
+                    <img src="/build/images/4.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="w-full self-center md:flex-1 md:mr-10 pb-12 ml-4  lg:w-1/2 pt-4">
+
+                <div class="overflow-hidden text-ellipsis ">
+                    <h1 class="font-bold text-xl lg:text-5xl mb-4 lg:mb-4 text-black " data-aos="zoom-in">Faktor Computer Vision Syndrome<br>
+                    </h1>
+                    <p class="font-sans text-md md:text-md lg:text-xl px-12 md:px-12 lg:px-0 text-gray-600" data-aos="zoom-in">
+                        Beberapa faktor risiko yang dapat memicu Computer Vision Syndrome (CVS) meliputi faktor individu
+                        seperti jenis kelamin,
+                        lama waktu bekerja di depan layar komputer, durasi istirahat setelah menggunakan komputer,
+                        penggunaan kacamata atau soft lens,
+                        jarak mata yang tidak sesuai dengan monitor, sudut pandang mata terhadap layar, serta kondisi
+                        lingkungan.
+                    </p>
+                </div>
+                <!-- <a class="mt-8inline-block px-8 text-black rounded-full py-2 text-sm bg-white font-sans font-bold"
+                    href="/public/login.html">Pelajari Lebih Lanjut
+                    </a> -->
+            </div>
+
+        </div>
+    </section>
+    <!-- Faktor Mata -->
+
+    <!-- Pencegahan  -->
+    <section id="pencegahan" class="bg-gray-50">
+        <div class="lg:px-32 px-4  text-center  lg:text-start flex flex-col py-16">
+            <div class="mb-16 relative">
+                <div class="space-y-4 "data-aos="zoom-in-down">
+                    <h3 class="text-blue-600 text-lg font-medium">Pencegahan Computer Vision Syndrome</h3>
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight max-w-3xl">
+                            Ketahui pencegahan CVS dengan cara berikut
+                        </h1>
+                        <!-- <a href="/src/module.pdf"
+                            class="inline-flex items-center justify-center px-6 py-3 border-2 border-black rounded-full hover:bg-black hover:text-white transition-colors duration-300 whitespace-nowrap">
+                            Download PDF Module
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+             <!-- Cards Section -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 ">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">1.</h3>
+                    <p class="text-gray-600">
+                        	Mengatur kecerahan layar agar tidak terang atau sangat gelap
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">2.</h3>
+                    <p class="text-gray-600">
+                        	Jaga jarak pandang mata dan layar kurang lebih 50-100 cm
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">3.</h3>
+                    <p class="text-gray-600">
+                        	Sesuaikan sudut layar computer dengan mata maksimal 20 derajat
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">4.</h3>
+                    <p class="text-gray-600">
+                        Pertahankan posisi duduk yang tegak agar mata tidak terlalu dekat atau terlalu sering memfokuskan pandangan pada layar sehingga tidak mudah lelah.
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">5.</h3>
+                    <p class="text-gray-600">
+                        Usahakan untuk berkedip agar mata tidak  iritasi dan mengalami kekeringan
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">6.</h3>
+                    <p class="text-gray-600">
+                     Mengistirahatkan mata setiap 20 menit dengan memandang media lain yang berjarak sekitar 6 meter selama 20 detik.
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">7.</h3>
+                    <p class="text-gray-600">
+                    	Lakukan pemeriksaan mata secara rutin minimal sekali setahun untuk mendeteksi masalah mata
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">8.</h3>
+                    <p class="text-gray-600">
+                    	Konsumsi makanan bergizi yang mengandung vitamin A, C, E, lutein, selenium dan asam 
+                        lemak omega 3, seperti sayuran hijau, salmon, tuna, telur, kacang-kacangan, dan jeruk.
+                    </p>
+                </div>
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">9.</h3>
+                    <p class="text-gray-600">
+                    Pertimbangkan untuk mengonsumsi suplemen kesehatan mata yang mengandung bilberry, lutein, zeaxanthin, B- Caroten, retinol, selenium, dan zinc.
+                    </p>
+                </div>
+
+                
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- Pencegahan -->
+
+    <!-- Definisi -->
+    <section id="definisi" class="bg-primary-color">
+        <div
+            class="lg:px-32 pt-32 pb-16 flex flex-col-reverse lg:flex-row h-full items-center text-center lg:items-start lg:text-start">
+            <div class="w-full self-center md:flex-1 md:mr-10 pb-12  lg:w-1/2 pt-4" data-aos="zoom-in">
+                <h1 class="font-bold text-2xl lg:text-5xl mb-4 lg:mb-4 text-white ">Definisi Senam Mata <br>
+                   </h1>
+                <div class="h-full text-ellipsis">
+                    <p class="font-sans text-sm md:text-md lg:text-xl px-12 md:px-12 lg:px-0 text-gray-300">
+                        Senam mata adalah metode untuk melatih ke lenturan dan mobilitas bola mata sesuai dengan 
+                        cakupan pandangan, karena semakin besar cakupan pandangan, semakin efektif kemampuan membaca.
+                        Senam mata merupakan pencegahan paling efektif dan efisien dalam meredakan kelelahan mata pada siswa. 
+                    </p>
+                </div>
+                <!-- <a class="mt-8inline-block px-8 text-black rounded-full py-2 text-sm bg-white font-sans font-bold"
+                href="/public/login.html">Pelajari Lebih Lanjut
+                </a> -->
+            </div>
+            <div class="w-96 lg:self-end lg:px-20  lg:w-1/2 "data-aos="zoom-in-down">
+                <div class="relative sm:mx-12 mx-12 lg:mx-0 lg:left-20 bg-cover">
+                    <img src="/build/images/gambar1.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Definisi end -->
+
+    <!-- Gambar -->
+    <section class="bg-gray-50">
+        <div class="lg:px-32 px-4 py-16 flex flex-col items-center text-center lg:items-start lg:text-start">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Gambar Pertama -->
+                <div class="overflow-hidden rounded-lg" data-aos="zoom-in-down">
+                    <img src="/build/images/poto1.jpg" alt="Gambar 1" class="w-full h-auto object-cover">
+                </div>
+
+                <!-- Gambar Kedua -->
+                <div class="overflow-hidden rounded-lg" data-aos="zoom-in-down">
+                    <img src="/build/images/poto2.jpg" alt="Gambar 2" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Gambar -->
+
+    <!-- Manfaat senam mata -->
+    <section id="manfaat" class="bg-gray-50">
+        <div class="lg:px-32 px-4  text-center  lg:text-start flex flex-col py-16">
+            <div class="mb-16 relative" data-aos="zoom-in-down">
+                <div class="space-y-4">
+                    <h3 class="text-blue-600 text-lg font-medium">Manfaat Senam Mata</h3>
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight max-w-3xl">
+                            Ketahui manfaat senam mata
+                        </h1>
+                        <a href="/build/module.pdf"
+                            class="inline-flex items-center justify-center px-6 py-3 border-2 border-black rounded-full hover:bg-black hover:text-white transition-colors duration-300 whitespace-nowrap">
+                            Download PDF Module
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="zoom-in-down">
+                    <!-- <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M4 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm2-2h8v10H6V3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div> -->
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-4">	Mengurangi risiko penyakit mata</h3>
+                        <p class="text-gray-600">Senam mata dapat membantu menjaga kesehatan mata dengan merangsang 
+                            aliran darah dan sirkulasi di sekitar mata. Hal ini dapat mengurangi risiko berbagai penyakit 
+                            mata seperti glaukoma, degenerasi makula, dan katarak..</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="zoom-in-down">
+                   
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-4">	Mencegah munculnya tumor dibelakang mata dan dikelenjar hipofisis</h3>
+                        <p class="text-gray-600">Latihan mata dapat mengurangi ketegangan dan tekanan di sekitar area mata dan kepala, 
+                            sehingga membantu mencegah gangguan yang lebih serius. Meskipun senam mata tidak dapat sepenuhnya mencegah tumor,
+                            latihan ini dapat membantu menjaga kesehatan jaringan di sekitar mata dan kepala..</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="zoom-in-down">
+                    
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-4">	Menghilangkan bengkak dibawah mata</h3>
+                        <p class="text-gray-600">Gerakan senam mata membantu mengurangi retensi cairan di sekitar mata, yang sering menjadi
+                             penyebab bengkak. Dengan melancarkan sirkulasi, senam ini membantu mengurangi lingkaran hitam dan bengkak yang sering 
+                             muncul di bawah mata..</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="zoom-in-down">
+                    
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-4">	Mengurangi keriput disekitar mata</h3>
+                        <p class="text-gray-600">Gerakan senam mata membantu mengurangi retensi cairan di sekitar mata, yang sering menjadi penyebab bengkak.
+                             Dengan melancarkan sirkulasi, senam ini membantu mengurangi lingkaran hitam dan bengkak yang sering muncul di bawah mata.</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="zoom-in-down">
+                   
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-4">	Meningkatkan elastisitas dan kekuatan otot-otot mata dan sekitarnya</h3>
+                        <p class="text-gray-600">Senam mata dapat melatih dan memperkuat otot-otot di sekitar mata, sehingga mata lebih kuat dalam menyesuaikan fokus. 
+                            Ini juga membantu mencegah kelelahan mata akibat aktivitas visual yang berat, seperti menatap layar komputer atau membaca dalam waktu lama.</p>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="zoom-in-down">
+                    
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-4">	Mempertajam penglihatan </h3>
+                        <p class="text-gray-600">Latihan mata yang teratur dapat membantu memperbaiki fokus dan ketajaman visual. Dengan melatih mata untuk melihat
+                             jarak yang berbeda, latihan ini dapat meningkatkan kemampuan mata dalam menangkap detail dan mengurangi ketegangan mata.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Manfaat senam mata -->
+
+    <!-- Panduran senam mata -->
+    <section id="panduan" class="bg-primary-color flex justify-center items-center min-h-screen">
+        <div class=" lg:px-32 px-4 items-center text-center lg:items-start lg:text-start flex flex-col py-16">
+            <!-- Main Hero Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <!-- Image Section -->
+                <div class="relative overflow-hidden " data-aos="zoom-in-down">
+                    <img src="/build/images/Frame 2.png" alt="Main Image" class="rounded-lg w-full md:w-3/4 lg:w-full">
+                    <button onclick="showVideo()" class="absolute inset-0 flex items-center justify-center">
+                        <div class="bg-black bg-opacity-50 rounded-full p-2">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+                <!-- Video Modal -->
+                <div id="videoModal"
+                    class="fixed inset-0 flex  items-center justify-center bg-black bg-opacity-75 hidden">
+                    <div class="relative bg-white rounded-lg overflow-hidden w-11/12 md:w-3/4 lg:w-1/2">
+                        <!-- Close Button -->
+                        <button onclick="closeVideo()"
+                            class="absolute top-2 right-2 text-gray-50 bg-black hover:text-gray-700">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 8.586L15.293 3.293a1 1 0 111.414 1.414L11.414 10l5.293 5.293a1 1 0 01-1.414 1.414L10 11.414l-5.293 5.293a1 1 0 01-1.414-1.414L8.586 10 3.293 4.707a1 1 0 011.414-1.414L10 8.586z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <!-- Video Element -->
+                        <video id="videoPlayer" controls class="w-full h-auto">
+                            <source src="/build/images/latihan.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Text Section -->
+                <div class="flex flex-col justify-center text-white space-y-4" data-aos="zoom-in-down">
+                    <h2 class="text-lg font-medium">Panduan Senam Mata</h2>
+                    <p class="text-5xl font-bold leading-snug">Raih tujuan kesehatan mata anda dengan video berikut</p>
+                </div>
+
+                <!-- Video and Testimonial Section -->
+                <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+                    <!-- Video Placeholder -->
+                    <div class="relative rounded-lg overflow-hidden p-4"data-aos="zoom-in-down">
+                        <img src="/build/images/gambar2.png" alt="Video Thumbnail" class="rounded-lg w-60">
+
+                        <p class="text-white mt-2 text-sm">"I feel more confident and at peace since starting therapy
+                            here."</p>
+                    </div>
+
+                    <!-- Image Placeholder -->
+                    <div class="rounded-lg overflow-hidden p-4 flex justify-center items-center"data-aos="zoom-in-down">
+                        <img src="/build/images/tes mata.jpg" alt="Image Placeholder" class="rounded-lg h-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Panduan senam mata -->
+    <!-- Jadwal senam mata -->
+    <section id="jadwal" class="bg-gray-50">
+        <div class=" lg:px-32 px-4  text-center  lg:text-start flex flex-col py-16">
+            <!-- Header Section -->
+            <div class="mb-16 relative" data-aos="zoom-in-down">
+                <div class="space-y-4">
+                    <h3 class="text-blue-600 text-lg font-medium">Program Senam Mata</h3>
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight max-w-3xl">
+                            Mulai Program Rutinitas Yang Dapat Kamu Lakukan Setiap Hari
+                        </h1>
+                        <a href="/build/jadwal.pdf"
+                            class="inline-flex items-center justify-center px-6 py-3 border-2 border-black rounded-full hover:bg-black hover:text-white transition-colors duration-300 whitespace-nowrap">
+                            Download PDF Jawal
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Section -->
+            <div class="mb-16 px-4">
+                <div class="relative">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-0 right-0 h-1 top-1/2 transform -translate-y-1/2">
+                        <div class="h-full bg-gradient-to-r from-gray-900 via-primary-color to-acent-color"></div>
+                    </div>
+
+                    <!-- Timeline Dots -->
+                    <div class="relative flex justify-between">
+                        <div class="w-4 h-4 rounded-full bg-gray-900"></div>
+                        <div class="w-4 h-4 rounded-full bg-primary-color"></div>
+                        <div class="w-4 h-4 rounded-full bg-acent-color"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">Sangat sering</h3>
+                    <h4 class="font-semibold text-lg mb-4">5 kali/minggu</h4>
+                    <p class="text-gray-600">
+                        senin, selasa, kamis, jumat, minggu
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">Sering</h3>
+                    <h4 class="font-semibold text-lg mb-4">3 kali/minggu</h4>
+                    <p class="text-gray-600">
+                        senin, rabu, jumat
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">Cukup sering</h3>
+                    <h4 class="font-semibold text-lg mb-4">2 kali/minggu</h4>
+                    <p class="text-gray-600">
+                        senin, rabu
+                    </p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">Jarang</h3>
+                    <h4 class="font-semibold text-lg mb-4">1 kali/minggu</h4>
+                    <p class="text-gray-600">
+                        senin
+                    </p>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"data-aos="zoom-in-down">
+                    <h3 class="font-bold text-xl mb-2">Sangat jarang</h3>
+                    <h4 class="font-semibold text-lg mb-4">kurang dari 1 kali/minggu</h4>
+                    <p class="text-gray-600">
+                        bisa jadi 2 minggu hanya dilakukan sekali
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Program senam mata -->
+
+    <!-- Footer -->
+    <footer class="bg-primary-color text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-lg font-semibold">Leaflet</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:underline">CVS</a></li>
+                        <li><a href="#faktorcvs" class="text-gray-300 hover:underline">Faktor CVS</a></li>
+                        <li><a href="#pencegahan" class="text-gray-300 hover:underline">Pencegahan CVS</a></li>
+                        <li><a href="#definisi" class="text-gray-300 hover:underline">Definisi</a></li>
+                        <li><a href="#manfaat" class="text-gray-300 hover:underline">Manfaat</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-lg font-semibold">Explore & Connect</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:underline">Our Story</a></li>
+                        <li><a href="#" class="text-gray-300 hover:underline">Get in Touch</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-semibold">Legal</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:underline">Privacy Commitment</a></li>
+                        <li><a href="#" class="text-gray-300 hover:underline">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+               
+
+                <!-- Column 5 -->
+                <div>
+                    <h3 class="text-lg font-semibold">Review</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:underline">Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Social Media Links and Subscription Text -->
+            <div class="mt-8 border-t border-gray-500 pt-8">
+                <h3 class="text-lg font-semibold mb-4">Connect with Us</h3>
+                <div class="flex space-x-4 mb-4">
+                    <!-- Social Media Icons -->
+                    <a href="#" class="text-gray-300 hover:text-white">
+                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                            <path d="M18 2h-3.5a6 6 0 0 0-6 6V10H6v4h2v8h4v-8h2.5l1-4H12V8a2 2 0 0 1 2-2h2V2z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white">
+                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.04c-5.5 0-9.96 4.45-9.96 9.96 0 4.1 3.02 7.52 7.04 8.72v-6.18H8v-2.54h1.98v-1.86c0-1.96 1.18-3.04 2.98-3.04.86 0 1.76.1 1.76.1v1.92h-.98c-.98 0-1.28.62-1.28 1.24v1.54h2.12l-.28 2.54h-1.84v6.2c4.02-1.22 7.04-4.62 7.04-8.72 0-5.5-4.46-9.96-9.96-9.96z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white">
+                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                            <path
+                                d="M16.5 3H7.5C5 3 3 5 3 7.5v9C3 19 5 21 7.5 21h9c2.5 0 4.5-2 4.5-4.5v-9C21 5 19 3 16.5 3zM9.7 16.9c-.1.3-.2.4-.5.4s-1-.1-1.3-.1c-1.7-.5-3.4-2.4-4-4.7-.1-.5.1-.7.4-.8 1.4-.3 1.7-.2 2.1.2.2.2.4.4.6.6.3.3.6.1.9 0 .7-.5 1.1-1.2 1.6-1.9.2-.3 0-.5-.1-.6-.4-.4-.9-.8-1.3-1.2-.2-.3-.1-.6.2-.8.7-.4 1.4-.8 2.2-.8 1.4.2 2.7 1.5 2.9 3.2.1.9-.1 1.6-.4 2.3-.3.5-.8 1.4-1.3 1.9-.3.3-.6.7-1 .9zm6.2-2.2c-.3.3-.7.3-.8 0-.4-.4-.6-.9-.9-1.4-.1-.1-.2-.2-.2-.3-.2-.2-.3-.4-.5-.7-.2-.2-.4-.3-.7-.2s-.6.4-.6.8c-.1.5-.1.9-.2 1.4 0 .4.1.7.4.9.5.4 1.2.2 1.7 0 1.4-.6 2.2-1.4 3.1-2.8.2-.2.2-.4.1-.5-.2-.4-.6-.6-1.2-.6-1.4.1-2.6.7-3.9 1.1zm-.8-8.1c-.2 0-.3 0-.4-.1-.3-.1-.6.1-.7.4-.1.3.1.6.4.7.1.1.3.1.5.1s.4 0 .5-.1c.3-.1.5-.4.5-.7s-.2-.5-.4-.5z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <p class="text-gray-300 text-sm">Be part of our community, subscribe for exclusive offers.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Back To Start -->
+    <a href="#home"
+        class="fixed hidden justify-center items-center z-[9999] bottom-4 right-4 rounded-full h-14 w-14 bg-secondary-color p-4 hover:animate-pulse transition duration-300 ease-in-out"
+        id="to-top">
+        <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+    </a>
+
+    <!-- Back To Start end -->
+    <script src="/build/js/script.js"></script>
+    <script>
+        function showVideo() {
+            // Show the modal and start playing the video
+            const videoModal = document.getElementById('videoModal');
+            const videoPlayer = document.getElementById('videoPlayer');
+            videoModal.classList.remove('hidden');
+            videoPlayer.play();
+        }
+
+        function closeVideo() {
+            // Hide the modal and pause the video
+            const videoModal = document.getElementById('videoModal');
+            const videoPlayer = document.getElementById('videoPlayer');
+            videoModal.classList.add('hidden');
+            videoPlayer.pause();
+            videoPlayer.currentTime = 0; // Reset video to start
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

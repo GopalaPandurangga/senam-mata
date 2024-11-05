@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/build/css/output.css">
+</head>
+
+<body>
+    <section class="bg-white">
+        <div class="flex flex-col lg:flex-row h-full justify-between py-16">
+            <!-- Bagian Gambar -->
+            <div class="w-full lg:w-1/2 py-8 lg:py-16 lg:self-end lg:px-20">
+                <div class="relative mx-6 sm:mx-12 lg:mx-0 lg:left-20 bg-cover">
+                    <img src="/build/images/gambar1.png" alt="Gambar" >
+                </div>
+            </div>
+    
+            <!-- Bagian Form -->
+            <div class="w-full lg:w-1/2 px-6 lg:px-40 self-center">
+                <div class="text-xl lg:text-2xl pb-8 lg:pb-16 font-montserrat font-bold text-minor-color text-center">
+                    Hi Selamat Datang kembali
+                </div>
+                <form>
+                    <!-- Email Address -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email">
+                    </div>
+    
+                    <!-- Password -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                            Password
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter your password">
+                    </div>
+    
+                    <!-- Remember Me -->
+                    <div class="block mt-4">
+                        <label for="remember_me" class="inline-flex items-center">
+                            <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
+                            <span class="ml-2 text-sm text-gray-600">Remember me</span>
+                        </label>
+                    </div>
+    
+                    <!-- Tombol Submit dan Link Lupa Password -->
+                    <div class="flex flex-col lg:flex-row items-center justify-between mt-4">
+                        <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mb-4 lg:mb-0"
+                            href="{{ route('password.request') }}">
+                            Forgot your password
+                        </a>
+    
+                        <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300 ease-in-out">
+                            <a href="/build/pages/leaflet.html">Sign in</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Background Circle -->
+        <div class="fixed flex justify-center items-center z-[9999] -top-16 lg:-top-32 -right-16 lg:-right-32 rounded-full h-40 w-40 lg:h-80 lg:w-80 bg-primary-color p-4 hover:animate-pulse transition duration-300 ease-in-out">
+        </div>
+    </section>
+    
+
+</body>
+
+</html>
